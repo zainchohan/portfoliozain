@@ -1,12 +1,8 @@
 
+Personal Portfolio & Resume Next js
 
-> Develope by [jamirayhan](https://jamil-rayhan.netlify.app), [Github](https://github.com/jamilrayhan10) ,  [Facebook](https://www.facebook.com/jamil.rayhan100) <br />
-> This is [Diego](https://softec-next.vercel.app) – Creative Personal Portfolio & Resume Next js Template
 
-> *✅ Diego – is a creative & unique Portfolio Resume specifically created for the developer, designer, programmer, freelancer, writer, artist, web developer, photographer, or any other digital professional. We believe – we have covered everything you need to set up a Personal Portfolio or Resume website but if there is something that you would like to know then we are happy to help you out.* <br />
-> *✅ This is highly customizable and looks awesome on tablets and mobile devices. We have included best practice of web development and you can create great website layout based on Bootstrap or Grid 1400px.*
-
-## [Live Link](https://diego-nextjs.vercel.app)
+## [Live Link]()
 
 
 > #### ✅ React js:
