@@ -50,16 +50,11 @@ Personal Portfolio & Resume Next js
 > - Fixed Menu <br />
 > - Full UI Kit elements with lots of features <br />
 > - Clean and commented code <br />
-> - 06+ Home Pages <br />
-> - 03+ Blog Pages <br />
-> - 16+ Total Pages <br />
 > - Image background <br />
 > - Smooth Transition Effects <br />
 > - All Modern Browser Compatible [IE 11, Firefox, Chrome, Opera and Safari] <br />
 > - Font Awesome <br />
 > - JS & CSS files are included <br />
-> - 24/7 Awesome Support <br />
-> - Detailed documentation <br />
 
 
 
