@@ -8,7 +8,7 @@
     &-slider{
         @include transform(rotate(-3deg) translateY(-35px));
         &-active{
-            background-color: #BCE70C;
+            background-color: #FFC107;
             height: 84px;
         }
     }

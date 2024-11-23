@@ -38,7 +38,7 @@
             left: 0;
             bottom: 0;
             width: 0;
-            background-color: #BCE70C;
+            background-color: #eea57a;
             height: 1px;
             @extend %transition;
             z-index: -1;
@@ -154,7 +154,7 @@
         }
 
         &:hover{
-            background-color: #BCE70C;
+            background-color: #eea57a;
             color: #0A1603;
         }
     }

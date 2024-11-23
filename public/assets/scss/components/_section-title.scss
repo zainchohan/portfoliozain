@@ -11,7 +11,8 @@
         font-size: 20px;
         line-height: 28px;
         letter-spacing: 0.02em;
-        @include gradient((91deg, #BCFFA4 5.09%, #F59571 98.42%));
+        @include gradient((91deg, #eea57a 5.09%, #eea57a 98.42%));
+        font-family: inherit;
         -webkit-background-clip: text;
         -webkit-text-fill-color: transparent;
         background-clip: text;

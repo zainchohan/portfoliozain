@@ -131,6 +131,9 @@ html[tp-theme='tp-theme-light']{
     & .tp-hero-title {
         color: var(--tp-common-black-5);
     }
+    & .tp-hero-title-9 {
+        background-color: rgb(0 8 48);
+    }
     & .tp-hero-content p {
         color: rgba(37, 37, 37, 0.70);
     }
@@ -190,19 +193,24 @@ html[tp-theme='tp-theme-light']{
         border: 1px solid var(--tp-common-black-5);
     }
     & .tp-brand-inner-border {
-        background-color: rgba(18, 18, 18, 0.08);
+        background-color: rgb(18 18 18 / 18%);
     }
     & .tp-brand-border {
-        background-color: rgba(18, 18, 18, 0.08);
+        background-color: rgb(18 18 18 / 18%);
     }
     .tp-brand-title {
         color: var(--tp-common-black-5);
     }
     & .tp-brand-item img{
         filter: invert(100%)sepia(32%)saturate(304%)hue-rotate(200deg)brightness(105%)contrast(100%);
+        opacity: 0.55;
+      
+    }
+    & .tp-brand-item img:hover{
+        opacity: 1;
     }
     & .tp-services-inner-border {
-        background-color: rgba(18, 18, 18, 0.08);
+        background-color: rgb(18 18 18 / 18%);
     }
     #awesome-cursor-circle {
         background-color: var(--tp-common-black-5);
@@ -229,7 +237,7 @@ html[tp-theme='tp-theme-light']{
         background-color: var(--tp-common-black-5);
     }
     & .tp-services-accordion-border {
-        background-color: rgba(18, 18, 18, 0.08);
+        background-color: rgb(18 18 18 / 18%);
     }
     & .tp-services-accordion .accordion-item::after {
         background-color: var(--tp-common-black-5);
@@ -238,8 +246,8 @@ html[tp-theme='tp-theme-light']{
         border-bottom: 1px solid rgba(37, 37, 37, 0.08);
     }
     & .tp-section-subtitle-bg {
-        -webkit-text-stroke-color: rgba(18, 18, 18, 0.08);
-        -moz-text-stroke-color: rgba(18, 18, 18, 0.08);
+        -webkit-text-stroke-color: rgb(18 18 18 / 18%);
+        -moz-text-stroke-color: rgb(18 18 18 / 18%);
         -moz-text-stroke-width: 1.5px;
         -webkit-text-stroke-width: 1.5px;
     }
@@ -406,11 +414,11 @@ html[tp-theme='tp-theme-light']{
         color: #9ABF03;
     }
     & .tp-section-subtitle {
-        background-image: -webkit-linear-gradient(91deg, #9ABF03 5.09%, #FF8D62 98.42%);
-        background-image: -moz-linear-gradient(91deg, #9ABF03 5.09%, #FF8D62 98.42%);
-        background-image: -ms-linear-gradient(91deg, #9ABF03 5.09%, #FF8D62 98.42%);
-        background-image: -o-linear-gradient(91deg, #9ABF03 5.09%, #FF8D62 98.42%);
-        background-image: linear-gradient(91deg, #9ABF03 5.09%, #FF8D62 98.42%);
+        background-image: -webkit-linear-gradient(91deg, #243979 5.09%, #24387b 98.42%);
+        background-image: -moz-linear-gradient(91deg, #243979 5.09%, #24387b 98.42%);
+        background-image: -ms-linear-gradient(91deg, #243979 5.09%, #24387b 98.42%);
+        background-image: -o-linear-gradient(91deg, #243979 5.09%, #24387b 98.42%);
+        background-image: linear-gradient(91deg, #243979 5.09%, #24387b 98.42%);
     }
     & .tp-price-head-title {
         color: var(--tp-common-black-5);
@@ -499,18 +507,18 @@ html[tp-theme='tp-theme-light']{
         }
     }
     & .tp-hero-title span, .tp-hero-title span b {
-        background-image: -webkit-linear-gradient(91deg, #C0E42B 8.59%, #F59571 86.19%);
-        background-image: -moz-linear-gradient(91deg, #C0E42B 8.59%, #F59571 86.19%);
-        background-image: -ms-linear-gradient(91deg, #C0E42B 8.59%, #F59571 86.19%);
-        background-image: -o-linear-gradient(91deg, #C0E42B 8.59%, #F59571 86.19%); 
-        background-image: linear-gradient(91deg, #C0E42B 8.59%, #F59571 86.19%);
+        background-image: -webkit-linear-gradient(91deg, #243879 8.59%, #24397b 86.19%);
+        background-image: -moz-linear-gradient(91deg, #243879 8.59%, #24397b 86.19%);
+        background-image: -ms-linear-gradient(91deg, #243879 8.59%, #24397b 86.19%);
+        background-image: -o-linear-gradient(91deg, #243879 8.59%, #24397b 86.19%); 
+        background-image: linear-gradient(91deg, #243879 8.59%, #24397b 86.19%);
     }
     & .tp-about-fact-item h4 {
-        background-image: -webkit-linear-gradient(91deg, #C0E42B 8.59%, #F59571 86.19%);
-        background-image: -moz-linear-gradient(91deg, #C0E42B 8.59%, #F59571 86.19%);
-        background-image: -ms-linear-gradient(91deg, #C0E42B 8.59%, #F59571 86.19%);
-        background-image: -o-linear-gradient(91deg, #C0E42B 8.59%, #F59571 86.19%);
-        background-image: linear-gradient(91deg, #C0E42B 8.59%, #F59571 86.19%);
+        background-image: -webkit-linear-gradient(91deg, #243879 8.59%, #24397b 86.19%);
+        background-image: -moz-linear-gradient(91deg, #243879 8.59%, #24397b 86.19%);
+        background-image: -ms-linear-gradient(91deg, #243879 8.59%, #24397b 86.19%);
+        background-image: -o-linear-gradient(91deg, #243879 8.59%, #24397b 86.19%);
+        background-image: linear-gradient(91deg, #243879 8.59%, #24397b 86.19%);
     }
     & .tp-header-2__main-menu nav ul li a {
         color: var(--tp-common-black-4);
@@ -570,7 +578,7 @@ html[tp-theme='tp-theme-light']{
         color: var(--tp-common-white);
         &:hover{
             color: var(--tp-common-black-5);
-            background-color: #BCE70C;
+            background-color: #eea57a;
         }
     }
     & .tp-theme-toggle-slide {
@@ -1692,6 +1700,7 @@ html[tp-theme='tp-theme-light']{
         background-image: -ms-radial-gradient(#000, #000), -ms-radial-gradient(#000, #000);
         background-image: -o-radial-gradient(#000, #000), -o-radial-gradient(#000, #000);
         background-image: radial-gradient(#000, #000), radial-gradient(#000, #000);
+        
     }
 
     & .tp-offcanvas-area-2 {

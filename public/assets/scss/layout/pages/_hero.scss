@@ -57,7 +57,7 @@
             font-size: 20px;
             line-height: 1.4;
             color: rgba($color: $white, $alpha: .7);
-            padding-left: 90px;
+            padding-left: 0;
             margin-bottom: 33px;
             @media #{$xs}{
                 padding-left: 0;
@@ -94,6 +94,7 @@
             -webkit-text-fill-color: transparent;
             background-clip: text;
             text-fill-color: transparent;
+            font-size: 67px;
         }
         & span b{
             padding-right: 3px;
@@ -314,8 +315,8 @@
             }
 
             &:hover{
-                background-color: #BCE70C;
-                border-color: #BCE70C;
+                background-color: #eea57a;
+                border-color: #eea57a;
                 color: #292D32;
             }
         }

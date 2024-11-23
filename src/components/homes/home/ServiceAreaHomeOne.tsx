@@ -135,7 +135,7 @@ const ServiceAreaHomeOne = () => {
                       <span className="tp-services-capsule-item" style={{ backgroundColor: "#FF759C" }}>Web Development</span>
                     </p>
                     <p data-tp-throwable-el="">
-                      <span className="tp-services-capsule-item" style={{ backgroundColor: "#FFDB59", color: "#121212" }}>DevOps</span>
+                      <span className="tp-services-capsule-item" style={{ backgroundColor: "#19B3F1" }}>DevOps</span>
                     </p>
                     <p data-tp-throwable-el="">
                       <span className="">

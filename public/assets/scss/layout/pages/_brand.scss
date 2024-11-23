@@ -50,7 +50,12 @@
     }
     &-item{
         & img{
-            opacity: .35;
+            opacity: 1;
+            padding: 1em;
+            max-height: 100%;
+            width: 100%;
+            background-color: rgb(255 255 255 / 12%) !important ;
+            object-fit: contain;            
             @extend %transition;
         }
         &:hover{

@@ -66,7 +66,7 @@ const BlogArea = () => {
           <div className="row">
             <div className="blog-list__title-box">
               <span className="blog-list__subtitle tp-char-animation">Insights</span>
-              <h4 className="blog-list__title tp-char-animation">Transforming ideas into reality – take a tour of my portfolio!</h4>
+              <h4 className="blog-list__title tp-char-animation">Transforming concepts into captivating creations – Dive into my portfolio!</h4>
             </div>
           </div>
           <div className="row">

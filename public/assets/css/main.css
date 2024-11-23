@@ -244,7 +244,7 @@ li,
   --tp-dark-black-2: #000F4A;
   --tp-dark-black-3: #162251;
   --tp-dark-black-4: #0F183E;
-  --tp-dark-black-5: #213617;
+  --tp-dark-black-5: #0f183e;
   --tp-yellow-1: #FFB342;
   --tp-pink-1: #FD4B6B;
   --tp-pink-2: #FF5746;
@@ -253,7 +253,7 @@ li,
   --tp-cream-2: #CFC292;
   --tp-green-dark: #115061;
   --tp-green-1: #31B757;
-  --tp-green-2: #BCE70C;
+  --tp-green-2: #eea57a;
   --tp-khaki-1: #AB9774;
   --tp-coffe-1: #653624;
   --tp-coffe-2: #552411;
@@ -1575,7 +1575,7 @@ div.tp-theme-toggle-single .themepure-theme-toggle-input {
   left: 32px;
   width: 20px;
   height: 20px;
-  background-color: #BCE70C;
+  background-color: #eea57a;
   width: 20px;
   height: 20px;
   line-height: 20px;
@@ -1629,7 +1629,7 @@ div.tp-theme-toggle-single .themepure-theme-toggle-input {
   left: 36px;
   width: 20px;
   height: 20px;
-  background-color: #BCE70C;
+  background-color: #eea57a;
   width: 20px;
   height: 20px;
   line-height: 20px;
@@ -3992,7 +3992,7 @@ div.tp-theme-toggle-single .themepure-theme-toggle-input {
 }
 
 .theme-bg-2 {
-  background-color: #213617;
+  background-color: #0f183e !important;
 }
 
 .coffe-bg {
@@ -8038,7 +8038,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   text-align: center;
   font-size: 18px;
   color: var(--tp-common-black-2);
-  background-color: #BCE70C;
+  background-color: #eea57a;
   border-radius: 6px;
 }
 .tp-header-area.tp-header-sticky-cloned {
@@ -11217,6 +11217,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   background-size: 0% 2px, 0 2px;
   background-position: 100% 100%, 0 91%;
   background-repeat: no-repeat;
+  
 }
 .blog-list__slider-title a:hover {
   background-size: 0 2px, 100% 2px;
@@ -12693,8 +12694,8 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   margin-bottom: 10px;
 }
 .tp-hero-social a:hover {
-  background-color: #BCE70C;
-  border-color: #BCE70C;
+  background-color: #eea57a;
+  border-color: #eea57a;
   color: #292D32;
 }
 .tp-hero-shape-1 {
@@ -14489,7 +14490,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   }
 }
 .tp-brand-item img {
-  opacity: 0.35;
+  object-fit: contain;
 }
 .tp-brand-item:hover img {
   opacity: 1;
@@ -16619,7 +16620,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   transform: rotate(-3deg) translateY(-35px);
 }
 .tp-marquee-slider-active {
-  background-color: #BCE70C;
+  background-color: #eea57a;
   height: 84px;
 }
 .tp-marquee-item p {
@@ -16713,7 +16714,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   position: absolute;
   top: 5px;
   display: inline-block;
-  background: #BCE70C;
+  background: #eea57a;
   box-shadow: 0px 2px 2px rgba(14, 30, 5, 0.5);
   border-radius: 100px;
   height: 32px;
@@ -16772,7 +16773,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   left: 0;
   bottom: 0;
   width: 0;
-  background-color: #BCE70C;
+  background-color: #eea57a;
   height: 1px;
   z-index: -1;
   opacity: 0;
@@ -16895,7 +16896,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   opacity: 0;
 }
 .tp-award-btn:hover {
-  background-color: #BCE70C;
+  background-color: #eea57a;
   color: #0A1603;
 }
 .tp-award-arrow {
@@ -17043,7 +17044,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   margin-right: 8px;
 }
 .tp-testimonial-rating span {
-  color: #BCE70C;
+  color: #eea57a;
 }
 .tp-testimonial-content p {
   font-weight: 400;
@@ -17511,7 +17512,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   position: absolute;
   top: 5px;
   display: inline-block;
-  background: #BCE70C;
+  background: #eea57a;
   box-shadow: 0px 2px 2px rgba(14, 30, 5, 0.5);
   border-radius: 100px;
   height: 32px;
@@ -17521,7 +17522,7 @@ html[tp-theme=tp-theme-light] .cursor-white #ball {
   position: absolute;
   top: 6px;
   display: inline-block;
-  background: #BCE70C;
+  background: #eea57a;
   box-shadow: 0px 2px 2px rgba(14, 30, 5, 0.5);
   border-radius: 100px;
   height: 32px;
@@ -18921,7 +18922,7 @@ html[tp-theme=tp-theme-light] .tp-hero-social a {
 }
 html[tp-theme=tp-theme-light] .tp-hero-social a:hover {
   color: var(--tp-common-black-5);
-  background-color: #BCE70C;
+  background-color: #eea57a;
 }
 html[tp-theme=tp-theme-light] .tp-theme-toggle-slide {
   color: var(--tp-common-white);
