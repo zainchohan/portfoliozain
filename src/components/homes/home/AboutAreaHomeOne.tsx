@@ -28,7 +28,7 @@ const about_content: DataType = {
     over 5 years of experience in <span>UI/UX design</span> and 
     <span> front-end development</span> .
     I have had the privilege of contributing to impactful projects for prestigious organizations like 
-    <span> Dammam Municipality</span> and <span>Abdulla Fouad Group</span>
+    <span> Dammam Municipality</span>, <span>Abdulla Fouad Group</span> and <span>Aramco</span>
   </div>,
   counter_data: [
     {

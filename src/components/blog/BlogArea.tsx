@@ -10,7 +10,7 @@ import styles from './style.module.css'
 
 // data
 const categories = blog_data.map((item) => item.category);
-const total_items = blog_data.map(p => p.article_data.length) 
+const total_items = blog_data.map(p => p.sliders.length) 
 
 // slider swiper setting 
 const slider_setting = {
