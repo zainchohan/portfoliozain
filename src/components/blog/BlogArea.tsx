@@ -6,6 +6,7 @@ import blog_data from '@/data/BlogData';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import { Autoplay, Navigation,Scrollbar } from 'swiper/modules';
 import Link from 'next/link';
+import styles from './style.module.css'
 
 // data
 const categories = blog_data.map((item) => item.category);
@@ -118,30 +119,33 @@ const BlogArea = () => {
                                     <div className="row align-items-end">
                                       <div className="col-xl-12 col-lg-12 col-md-8 mb-20">
                                         
-                                        <div className="blog-list__sm-category">
-                                          <span>{slider.tag1}</span> {' '}
-                                          <span>{slider.tag2}</span>
+                                      <div className="blog-list__sm-category">
+                                          {slider.tag1 && <span>{slider.tag1}</span>}
+                                          {slider.tag2 && <span>{slider.tag2}</span>}
+                                          {slider.tag3 && <span>{slider.tag3}</span>}
+                                          {slider.tag4 && <span>{slider.tag4}</span>}
+                                          {slider.tag5 && <span>{slider.tag5}</span>}
+                                          {slider.tag6 && <span>{slider.tag6}</span>}
                                         </div>
+
                                       </div>
                                     </div>
                                   </div>
                                   <div className="row">
                                     <div className="col-xl-12">
                                       <div className="blog-list__slider-thumb">
-                                      <Link href={`${slider.link}`} target="_blank" >
-                                          <Image
-                                            src={slider.img}
-                                            alt={slider.title}
-                                            style={{
-                                              height: '20em',
-                                              width: '100%',
-                                              objectFit: 'cover',
-                                            }}
-                                            width={400}
-                                            height={300}
-                                          />
-                                        </Link>
-                                      </div>
+
+                                    <Link href={`${slider.link}`} target="_blank">
+                                      <Image
+                                        src={slider.img}
+                                        alt={slider.title}
+                                        className={styles.image}
+                                        width={400}
+                                        height={300}
+                                      />
+                                    </Link>
+
+                                    </div>
                                     </div>
                                   </div>
 
